@@ -1,0 +1,75 @@
+.logo {
+  width: 200px;
+  padding: 20px;
+  margin: auto;
+}
+
+nav ul, li {
+  display: flex;
+	padding: 20px;
+	margin: auto;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+}
+
+@media screen and (min-width: 50px) {
+  Figure{
+    float: right;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: #af1b3f;
+}
+
+h1{
+font-family:'PlayfairDisplay',serif;
+text-align:center;
+font-size:37px;
+color:#af1b3f;
+}
+
+p{
+ text-align:center;
+ font-family:"Arial", serif;
+}
+
+.entertainment-list{
+list-style:none;
+text-align:center;
+font-family:"Arial", serif;
+margin:auto;
+padding:20px;
+line-height:30px;
+}
+
+h2{
+font-family: 'Playfair Display',serif;
+text-align:center;
+font-size:35px;
+color:#af1b3f;
+}
+
+table{
+list-style:none;
+text-align:left;
+font-family:"Arial", serif;
+margin:auto;
+padding:20px;
+line-height:40px;
+flex-wrap: wrap;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  color: white;
+  background-color: #af1b3f;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  line-height: 28px;
+}
