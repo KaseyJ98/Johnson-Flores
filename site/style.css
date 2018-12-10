@@ -1,0 +1,99 @@
+.logo {
+  width: 200px;
+  padding: 20px;
+  margin: auto;
+}
+
+nav ul, li {
+  display: flex;
+	padding: 20px;
+	margin: auto;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+  color: white;
+}
+@media screen and (min-width: 50px) {
+  Figure{
+    float: right;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: #af1b3f;
+}
+section h1 {
+  padding: 60px 0px 10px 0px;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color:white;
+}
+
+ .p1 {
+  line-height: 20px;
+  font-family: 'arial', sans-serif;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 50px 30px 90px 10px;
+  background-image: url("https://static1.squarespace.com/static/5b2e415512b13f027dd5c0b1/5bc8be43e2c483e077241e04/5bc8bedec830253840597ba1/1540121276518/Red+Wine+9.jpg?format=1500w");
+  background-size: cover;
+  color: white;
+  column-count: 2;
+  column-width: 400px;
+}
+
+section h2 {
+  padding: 60px 0px 10px 0px;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+.space{
+ padding: 60px 0px 10px 0px;
+  color: white;
+}
+.p2 {
+  line-height: 20px;
+  font-family: 'arial', sans-serif;
+  Margin: auto;
+  flex-wrap: wrap;
+  padding: 20px 30px 90px 40px;
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1529060532150-a0c935a6d6e5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3e0ef16771dee0fbcafd6807d9a18f7c&auto=format&fit=crop&w=2250&q=80");
+  background-size: cover;
+  column-count: 2;
+  column-width: 400px;
+}
+
+.calendar {
+  flex-wrap: wrap;
+  color: white;
+  background-color: #af1b3f;
+  display: flex;
+  Margin: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0px 30px 0px;
+  color: white;
+  background-color: #af1b3f;
+  font-family: 'Arial', sans-serif;
+  font-size: 12px;
+  line-height: 28px;
+}
+
+.footer dt {
+  font-size: 15px;
+  color: white;
+}
